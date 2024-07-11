@@ -73,3 +73,55 @@ if (condition1) {
 ```
 
 - For **equal to** condition, we use `===` instead of `==`.
+
+- We can declare & define array as below,
+```js
+let names = ["Krunal", "Dev", "Yagnesh"]
+
+// OR
+
+let names = [
+    "Krunal",
+    "Dev",
+    "Yagnesh"
+]
+```
+
+- We can find length of array by using `length` property as below,
+```js
+console.log(name.length)    // 3
+```
+
+- We can store value of different datatype in a array as below,
+
+```js
+let person = ["Krunal Kadtan", 20]
+```
+
+- We can add new element at the end of the array using `push` method as below,
+```js
+let cards = [4, 7]
+cards.push(10)
+console.log(cards)  // [4, 7, 10]
+```
+
+- We can remove last element of the array using `pop` method as below,
+```js
+console.log(cards)  // [4, 7, 10]
+cards.pop()
+console.log(cards)  // [4, 7]
+```
+
+- We can use for loop similarly as we use in C programming language.
+
+- We can use logical operators similarly as we use in C programming language.
+
+- We can declare & define object as below,
+```js
+let person = {
+    name: "Krunal",
+    age: 20
+}
+```
+- Inside object, we use `:` to assign values to variables & we separate variables using `,` as we do in array.
+- Variables that are inside the object is known as **key** of an object & Functions that are inside the object is known as **method** of an object.
