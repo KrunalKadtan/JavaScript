@@ -104,6 +104,7 @@ let cards = [4, 7]
 cards.push(10)
 console.log(cards)  // [4, 7, 10]
 ```
+We can add new element at the beginning of the array using `unshift` method.
 
 - We can remove last element of the array using `pop` method as below,
 ```js
@@ -111,6 +112,7 @@ console.log(cards)  // [4, 7, 10]
 cards.pop()
 console.log(cards)  // [4, 7]
 ```
+We can remove first element of the array using `shift` method.
 
 - We can use for loop similarly as we use in C programming language.
 
