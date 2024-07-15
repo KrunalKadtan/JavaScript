@@ -127,3 +127,7 @@ let person = {
 ```
 - Inside object, we use `:` to assign values to variables & we separate variables using `,` as we do in array.
 - Variables that are inside the object is known as **key** of an object & Functions that are inside the object is known as **method** of an object.
+
+- `document.getElementById("input-el").value` is used to access the value entered in an input field with the ID `input-el`.
+- `document.createElement("li")` method is used to create a new HTML element of the type specified (in this case, a list item `<li>`). This new element can then be modified and added to the DOM (Document Object Model). (We can also create HTML element using `innerHTML` like this, `ulEl.innerHTML += "<li>" + myLead[i] + "</li>"`)
+- Template strings, also known as template literals, are a feature that allows for easier and more readable string interpolation and multi-line strings. They are enclosed by backticks (`` ` ``) instead of single or double quotes.
